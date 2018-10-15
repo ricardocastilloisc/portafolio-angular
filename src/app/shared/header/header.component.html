@@ -12,14 +12,14 @@
         </svg>
       </label>
       <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a [routerLink]="['home']">urku portfolio</a></h1>
+        <h1 class="rk-logo"><a [routerLink]="['home']">{{ _servicio.info.titulo }}</a></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
             <li [routerLinkActive]="['active']" class="rk-menu__item">
-              <a [routerLink]="['home']" class="rk-menu__link">Home</a>
+              <a [routerLink]="['home']" class="rk-menu__link">home</a>
             </li>
             <li [routerLinkActive]="['active']" class="rk-menu__item">
-              <a [routerLink]="['about']" class="rk-menu__link">Abouter</a>
+              <a [routerLink]="['about']" class="rk-menu__link">About</a>
             </li>
           </ul>
           <form class="rk-search">
