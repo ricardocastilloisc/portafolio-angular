@@ -1,3 +1,6 @@
+
+
+
 /* You can add global styles to this file, and also import other style files */
 @charset "UTF-8";
 
@@ -3621,4 +3624,8 @@
     -webkit-transition: none !important;
     transition: none !important;
   }
+}
+svg path,
+svg rect{
+  fill: black;
 }
